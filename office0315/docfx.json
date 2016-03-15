@@ -16,11 +16,15 @@
     "resource": [
       {
         "files": [
-          "**"
+          "**/*.png",
+          "**/*.jpg",          
+          "**/*.gif",
+          "**/*.html",
+          "**/*.css",
+          "_themes/**"
         ],
         "exclude": [
           "**/obj/**",
-          "**/*.md",
           "office0315/**",
           "_themes/DocPacker/**"
         ],
